@@ -1,4 +1,6 @@
-﻿using System;
+ // 14.04.2023 Author: Helin Yılmaz
+
+using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -43,14 +45,7 @@ namespace UDP_Socket_Example
             string receivedMessage = Encoding.ASCII.GetString(receivedBytes);
             Console.WriteLine(receivedMessage);
 
-
-
-
-
-
-
-
-        }
+         }
 
 
 
